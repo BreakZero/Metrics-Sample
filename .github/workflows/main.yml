@@ -20,4 +20,4 @@ jobs:
           base: ""
           plugin_leetcode: yes
           plugin_leetcode_user: MrLu
-          plugin_leetcode_sections: solved, skills, recent
+          plugin_leetcode_sections: solved, skills
