@@ -19,4 +19,5 @@ jobs:
           filename: metrics.plugin.leetcode.svg
           base: ""
           plugin_leetcode: yes
+          plugin_leetcode_user: MrLu
           plugin_leetcode_sections: solved, skills, recent
