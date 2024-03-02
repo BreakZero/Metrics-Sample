@@ -16,15 +16,7 @@ jobs:
         with:
           # GitHub Token
           token: ${{ secrets.metrics }}
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          plugin_languages: yes
-          plugin_followup: yes
+          filename: metrics.plugin.leetcode.svg
+          base: ""
           plugin_leetcode: yes
-          plugin_leetcode_sections: solved, skills
-          plugin_leetcode_user:
-            type: string
-            description: |
-              LeetCode login
-            default: MrLu
-            preset: no
+          plugin_leetcode_sections: solved, skills, recent
