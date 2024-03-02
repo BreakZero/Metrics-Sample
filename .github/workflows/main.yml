@@ -22,3 +22,9 @@ jobs:
           plugin_followup: yes
           plugin_leetcode: yes
           plugin_leetcode_sections: solved, skills
+          plugin_leetcode_user:
+            type: string
+            description: |
+              LeetCode login
+            default: MrLu
+            preset: no
